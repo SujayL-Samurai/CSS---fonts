@@ -1,0 +1,38 @@
+fonts=
+font-family:
+em = percent
+1em = 100 percent
+Use of Google fonts
+
+
+<!DOCTYPE html>
+<html>
+	
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+	<body>
+		<head>
+			<h1>Sujay Langade</h1>
+
+		<p id="p1" class="odd">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fugiat error labore culpa saepe a. Earum exercitationem aspernatur, consequuntur, non animi beatae fugiat ex esse explicabo asperiores hic tempore fugit.</p>
+		<p id="p2" class="even">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fugiat error labore culpa saepe a. Earum exercitationem aspernatur, consequuntur, non animi beatae fugiat ex esse explicabo asperiores hic tempore fugit.</p>
+		<p id="p3" class="odd">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fugiat error labore culpa saepe a. Earum exercitationem aspernatur, consequuntur, non animi beatae fugiat ex esse explicabo asperiores hic tempore fugit.</p>
+		<p id="p4" class="odd">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fugiat error labore culpa saepe a. Earum exercitationem aspernatur, consequuntur, non animi beatae fugiat ex esse explicabo asperiores hic tempore fugit.</p>
+
+		</head>
+	</body>
+</html>
+
+style.css
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#p1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
